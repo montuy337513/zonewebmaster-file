@@ -1,0 +1,5 @@
+user = [user]
+password = [password] 
+hosts = [host]
+dbname = [dbname]
+query = SELECT `access` FROM `postfix_access` WHERE `source`='%s'  AND `type`m = 'client'
